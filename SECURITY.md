@@ -1,9 +1,9 @@
 # Security
 
-- Ne jamais committer une clé API, un token, un cookie, un fichier `.env` ou une référence de secret.
-- Ne jamais publier de prompt système privé, mémoire d'agent, URL interne, donnée client ou chemin local.
-- Utiliser des cas synthétiques et des fournisseurs fictifs dans les exemples.
-- Le runner fourni est dry-run et n'effectue aucun appel réseau.
-- Avant une exécution réelle, ajouter un budget, un plafond d'appels, un timeout, un checkpoint et une validation humaine.
-- Publier uniquement des résultats agrégés et anonymisés.
+- Never commit an API key, token, cookie, `.env` file, or secret reference.
+- Never publish a private system prompt, agent memory, internal URL, customer data, or local path.
+- Use synthetic cases and fictional providers in examples.
+- The provided runner is a dry-run and makes no network calls.
+- Before a real run, add a budget, call cap, timeout, checkpoint, and human approval.
+- Publish aggregated and anonymized results only.
 

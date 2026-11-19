@@ -1,19 +1,19 @@
 # Quickstart
 
-## Prérequis
+## Requirements
 
 - Python 3.10+ ;
-- aucun paquet externe requis pour le dry-run.
+- no external packages are required for the dry-run.
 
-## Vérifier le kit sans consommer de quota
+## Validate the kit without using quota
 
 ```bash
 python3 runners/dry_run.py --cases cases/baseline-v1/cases.jsonl
 ```
 
-La commande retourne un résumé JSON et ne fait aucun appel réseau.
+The command returns a JSON summary and makes no network calls.
 
-## Exécution réelle
+## Real execution
 
-Le kit ne fournit pas de credentials ni d'adaptateur fournisseur par défaut. Créez un adaptateur hors dépôt qui lit les secrets depuis le gestionnaire de secrets de votre environnement. Ajoutez un budget, un nombre maximal d'appels et un checkpoint avant tout appel payant.
+The kit provides no credentials or default provider adapter. Create an adapter outside this repository that reads secrets from your environment's secret manager. Add a budget, a maximum call count, and a checkpoint before any paid call.
 

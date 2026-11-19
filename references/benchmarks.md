@@ -1,14 +1,14 @@
-# Cinq suites publiques de référence
+# Five public benchmark references
 
-Ces liens sont des références externes publiques. Le kit ne redistribue pas leurs données sans vérifier leurs licences.
+These links are public external references. The kit does not redistribute their data without checking the applicable licenses.
 
-1. [MMLU-Pro — connaissances et raisonnement](https://github.com/TIGER-AI-Lab/MMLU-Pro) — connaissances générales, compréhension et raisonnement.
-2. [BFCL — Berkeley Function Calling Leaderboard](https://gorilla.cs.berkeley.edu/leaderboard.html) — appels de fonctions et utilisation d'outils.
-3. [PlanBench — planification](https://github.com/karthikv792/LLMs-Planning) — élaboration de plans et raisonnement sur les conséquences.
-4. [BIG-Bench Hard](https://github.com/suzgunmirac/BIG-Bench-Hard) — tâches de raisonnement complexe.
-5. [WritingBench](https://github.com/X-PLUG/WritingBench) — qualité rédactionnelle multi-domaines.
+1. [MMLU-Pro — knowledge and reasoning](https://github.com/TIGER-AI-Lab/MMLU-Pro) — general knowledge, comprehension, and reasoning.
+2. [BFCL — Berkeley Function Calling Leaderboard](https://gorilla.cs.berkeley.edu/leaderboard.html) — function calling and tool use.
+3. [PlanBench — planning](https://github.com/karthikv792/LLMs-Planning) — plan construction and reasoning about consequences.
+4. [BIG-Bench Hard](https://github.com/suzgunmirac/BIG-Bench-Hard) — challenging reasoning tasks.
+5. [WritingBench](https://github.com/X-PLUG/WritingBench) — multi-domain writing quality.
 
-## Limites de comparaison
+## Comparison limits
 
-Les versions, sous-ensembles, prompts, rubriques et licences doivent être figés dans un manifeste avant toute campagne. Une référence publique ne constitue pas automatiquement une autorisation de redistribuer ses données.
+Versions, subsets, prompts, rubrics, and licenses must be pinned in a manifest before any campaign. A public reference does not automatically authorize redistribution of its data.
 

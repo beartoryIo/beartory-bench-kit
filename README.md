@@ -1,44 +1,44 @@
 # Beartory Bench Kit
 
-Kit public et anonymisé pour reproduire des évaluations de modèles et d'agents.
+Public, anonymized kit for reproducing model and agent evaluations.
 
 ## Objectifs
 
-- fournir un mode `dry-run` sans appel réseau ni secret ;
-- documenter les cinq références publiques utilisées par Bench Core ;
-- séparer les cas, le scoring et les métriques FinOps ;
-- permettre à chacun d'utiliser ses propres modèles et identifiants localement.
+- provide a `dry-run` mode with no network calls or secrets;
+- document the five public benchmark references used by Bench Core;
+- separate cases, scoring, and FinOps metrics;
+- let everyone use their own models and credentials locally.
 
-Le kit ne contient aucune donnée privée, aucun résultat de production et aucune clé d'accès.
+The kit contains no private data, production results, or access keys.
 
-## Références publiques
+## Public references
 
 Voir [`references/benchmarks.md`](references/benchmarks.md).
 
-## Démarrage
+## Quick start
 
 ```bash
 python3 runners/dry_run.py --cases cases/baseline-v1/cases.jsonl
 ```
 
-Le mode dry-run valide les cas et affiche les appels prévus. Il ne contacte aucun fournisseur.
+The dry-run validates the cases and prints the planned calls. It contacts no provider.
 
-Pour une exécution réelle, l'utilisateur doit écrire son propre adaptateur local. Ne placez jamais de secret dans les fichiers du dépôt, les arguments ou les logs.
+For a real run, write your own local adapter. Never put secrets in repository files, arguments, or logs.
 
 ## Structure
 
-- `cases/` : cas synthétiques et anonymisés ;
-- `references/` : sources publiques et limites de licence ;
-- `runners/` : runners sans secret, dont le dry-run ;
-- `evaluation/` : rubriques et schémas de résultats ;
-- `finops/` : schéma de métriques et calculs ;
-- `reports/` : exemples synthétiques, jamais des données privées.
+- `cases/`: synthetic and anonymized cases;
+- `references/`: public sources and licensing notes;
+- `runners/`: secret-free runners, including the dry-run;
+- `evaluation/`: rubrics and result schemas;
+- `finops/`: metrics schema and calculations;
+- `reports/`: synthetic examples, never private data.
 
-## Statut
+## Status
 
-Version 0.1 — kit de démonstration et de reproductibilité. Les résultats d'exemple sont synthétiques et ne constituent pas une mesure publiée.
+Version 0.1 — demonstration and reproducibility kit. Example results are synthetic and are not published measurements.
 
-## Sécurité
+## Security
 
 Lire [`SECURITY.md`](SECURITY.md) avant toute exécution réelle.
 
