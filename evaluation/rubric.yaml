@@ -1,0 +1,10 @@
+version: "0.1"
+score_scale: 10
+required_fields: [case_id, response, score, reason, model, judge_model]
+statuses: [ok, error, quota_exhausted, transport_error, incomplete]
+rules:
+  - score_must_be_numeric
+  - judge_must_be_declared
+  - generation_and_judging_must_be_separable
+  - partial_results_must_be_checkpointed
+

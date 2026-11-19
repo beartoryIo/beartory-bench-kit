@@ -1,0 +1,5 @@
+{"case_id":"demo-001","suite":"mmlu-pro","task":"Choisir la meilleure explication synthétique d'un concept scientifique.","expected_mode":"text","sensitive":false}
+{"case_id":"demo-002","suite":"bfcl","task":"Construire un appel de fonction fictif à partir d'une consigne structurée.","expected_mode":"tool_call_json","sensitive":false}
+{"case_id":"demo-003","suite":"planbench","task":"Produire un plan en étapes pour atteindre un objectif avec deux contraintes.","expected_mode":"plan","sensitive":false}
+{"case_id":"demo-004","suite":"bbh","task":"Résoudre un problème logique synthétique et expliquer le raisonnement.","expected_mode":"text","sensitive":false}
+{"case_id":"demo-005","suite":"writingbench","task":"Rédiger une note claire, structurée et concise pour un lecteur non spécialiste.","expected_mode":"text","sensitive":false}

@@ -1,0 +1,11 @@
+{
+  "notice": "Synthetic example only; not a production result.",
+  "run_id": "example-dry-run-001",
+  "agent_id": "agent-example",
+  "condition": "baseline",
+  "cases": 5,
+  "completed": 0,
+  "network_calls": 0,
+  "secrets_read": 0,
+  "status": "dry_run"
+}
