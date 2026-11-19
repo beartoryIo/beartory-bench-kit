@@ -2,7 +2,7 @@
 
 Public, anonymized kit for reproducing model and agent evaluations.
 
-## Objectifs
+## Goals
 
 - provide a `dry-run` mode with no network calls or secrets;
 - document the five public benchmark references used by Bench Core;
@@ -13,7 +13,7 @@ The kit contains no private data, production results, or access keys.
 
 ## Public references
 
-Voir [`references/benchmarks.md`](references/benchmarks.md).
+See [`references/benchmarks.md`](references/benchmarks.md).
 
 ## Quick start
 
@@ -40,5 +40,5 @@ Version 0.1 — demonstration and reproducibility kit. Example results are synth
 
 ## Security
 
-Lire [`SECURITY.md`](SECURITY.md) avant toute exécution réelle.
+Read [`SECURITY.md`](SECURITY.md) before any real execution.
 
